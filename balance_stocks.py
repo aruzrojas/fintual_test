@@ -1,6 +1,8 @@
 
 #Portfolio class for each user, maybe a user can have more than one portfolio :?
 
+#LLM conversation (CHAT-GPT): https://chatgpt.com/share/69829f80-8108-8004-ae15-87b834630b3f
+
 class Portfolio:
 
     user = USUARIO()
@@ -39,3 +41,4 @@ class Portfolio:
                 percentage_to_buy = new_percentage - balance_percentage
                 amount_to_buy = total_amount * percentage_to_buy
                 self.buy_stock(stock, amount_to_buy)
+
